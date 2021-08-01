@@ -7,3 +7,30 @@ body {
     font-size: 5rem;
     margin-top: 15%;
 }
+
+.subHeading-main{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.discord-btn{
+    background-color: #4169E1;
+    color: white;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.register-btn{
+    margin-right: 1rem;
+    background-color: white;
+    color: #EA7E00;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 140px;
+    border-radius: 5px;
+}
