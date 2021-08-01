@@ -1,3 +1,9 @@
-.body {
+body {
     background: black;
+}
+
+.mainTitle{
+    color: #EA7E00;
+    font-size: 5rem;
+    margin-top: 15%;
 }
