@@ -1,12 +1,27 @@
+@font-face {
+  font-family: NeutralFace;
+  src: url(fonts/Cervanttis.ttf);
+}
+
+@font-face {
+    font-family: gilbert;
+    src: url(fonts/archia-regular-webfont.ttf);
+  }
+
 body {
     background: black;
+    font-family: 'Switzer', sans-serif;
+
+    
 }
   
 
 .mainTitle{
-    color: #EA7E00;
+    font-family: NeutralFace;
+    color: white;
     font-size: 5rem;
     margin-top: 15%;
+
 }
 
 .subHeading-main{
@@ -15,8 +30,9 @@ body {
 }
 
 .discord-btn{
-    background-color: #4169E1;
+    background-color: #141414;
     color: white;
+    font-weight: 200;
     outline: none;
     border: none;
     height: 45px;
@@ -26,9 +42,9 @@ body {
 
 .register-btn{
     margin-right: 1rem;
-    background-color: white;
-    color: #EA7E00;
-    font-weight: bold;
+    background-color: #141414;
+    color: #ffffff;
+    font-weight: 200;
     outline: none;
     border: none;
     height: 45px;
