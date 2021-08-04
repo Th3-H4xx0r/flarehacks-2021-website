@@ -1,6 +1,7 @@
 body {
     background: black;
 }
+  
 
 .mainTitle{
     color: #EA7E00;
@@ -83,10 +84,33 @@ body {
 }
 
 .gradient-text{
+    font-weight: 300;
+    font-size: calc(0.4em + 0.4vw);
+    margin-bottom: 3%;
     background: -webkit-linear-gradient(left, #FFB489 , #FFA4A4);
-    background: linear-gradient(to right, #FFA4A4 , #FF5AB3); 
+    background: linear-gradient(90.15deg, #BD89FF 0%, #FFA4A4 31.01%);
     background: -o-linear-gradient(right, #FFB489, #FF5AB3);
     background: -moz-linear-gradient(right, #FFB489, #FF5AB3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+.gradient-text2{
+    font-weight: 300;
+    font-size: calc(0.4em + 0.4vw);
+    margin-bottom: 3%;
+    background: -webkit-linear-gradient(left, #FFB489 , #FFA4A4);
+    background: linear-gradient(90.15deg, #BD89FF 70%, #FFA4A4 100.01%);
+    background: -o-linear-gradient(right, #FFB489, #FF5AB3);
+    background: -moz-linear-gradient(right, #FFB489, #FF5AB3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link{
+    font-size: calc(0.5em + 0.5vw);
+    margin: 0;
+    font-weight: 300;
+}
+.nav-item{margin: 0;padding-left: 15px;padding-right: 15px;}
